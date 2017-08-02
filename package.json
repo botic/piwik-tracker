@@ -1,0 +1,29 @@
+{
+  "name": "piwik-tracker",
+  "version": "1.0.0",
+  "description": "A simple wrapper around the Piwik tracker HTTP API.",
+  "keywords": [
+    "piwik",
+    "tracking",
+    "analytics"
+  ],
+  "homepage": "https://github.com/botic/piwik-tracker/",
+  "author": {
+    "name": "Philipp Naderer-Puiu",
+    "email": "philipp.naderer@gmail.com"
+  },
+  "contributors": [],
+  "repositories": [{
+      "type": "git",
+      "url": "https://github.com/botic/piwik-tracker.git"
+  }],
+  "bugs": "http://github.com/botic/piwik-tracker/issues",
+  "licenses": [{
+      "type": "MIT License",
+      "url": "https://github.com/botic/piwik-tracker/blob/master/LICENSE"
+  }],
+  "engines": {
+      "ringojs": ">= 1.0.0"
+  },
+  "main": "./lib/piwik-tracker"
+}
